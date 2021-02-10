@@ -1,0 +1,366 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Roboto Slab", serif;
+  font-size: 14px;
+  background-color: black;
+  position: relative;
+}
+
+.navbar {
+  background-color: black;
+  padding-top: 20px;
+}
+
+.navbar .navbar-brand {
+  font-family: "Orbitron", sans-serif;
+  font-weight: 700;
+  color: #fdb827;
+  font-size: 2rem;
+}
+
+.navbar button {
+  border: 1px solid #fdb827;
+}
+
+.navbar button i {
+  color: #fdb827;
+}
+
+.navbar .navbar-nav a {
+  font-family: "Roboto", sans-serif;
+  color: #f1f1f1;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  -webkit-transition: color 0.3s ease-in;
+  transition: color 0.3s ease-in;
+  text-align: center;
+}
+
+.navbar .navbar-nav a:hover {
+  color: #fdb827;
+}
+
+.hero {
+  background-color: black;
+  width: 100%;
+  height: 100%;
+  min-height: 100vh;
+  padding-bottom: 50px;
+  margin-top: -1px;
+}
+
+.hero .hero-info {
+  color: #f1f1f1;
+}
+
+.hero .hero-info p {
+  font-weight: 300;
+  margin-bottom: 30px;
+}
+
+.hero .hero-info a {
+  text-decoration: none;
+  font-size: 1.1rem;
+  color: #f1f1f1;
+  background-color: transparent;
+  border: 1px solid #fdb827;
+  border-radius: 5px;
+  padding: 10px;
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+}
+
+.hero .hero-info a:hover {
+  color: black;
+  background-color: #fdb827;
+}
+
+.hero .hero-img img {
+  width: 100%;
+  max-width: 500px;
+}
+
+.about {
+  width: 100%;
+  min-height: 100vh;
+  height: 100%;
+  background-color: #f1f1f1;
+  color: black;
+  padding-bottom: 50px;
+}
+
+.about #about-title {
+  display: inline-block;
+  position: relative;
+  font-family: "Orbitron", sans-serif;
+}
+
+.about #about-title .underline {
+  position: absolute;
+  width: 100%;
+  height: 5px;
+  background-color: #fdb827;
+}
+
+.about .about-content .about-photo {
+  width: 100%;
+  max-width: 400px;
+  -webkit-filter: drop-shadow(8px 8px 10px black);
+          filter: drop-shadow(8px 8px 10px black);
+}
+
+.about .about-content .about-photo .img {
+  height: 400px;
+}
+
+.about .about-content .about-info .about-info-p {
+  text-align: justify;
+}
+
+.about .about-content .about-info .about-info-details a {
+  text-decoration: none;
+  color: #21209c;
+}
+
+.about .about-content .about-info .personal-skill {
+  font-family: "Orbitron", sans-serif;
+  background-color: #fdb827;
+  border: 1px solid black;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  color: #21209c;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.skills {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  min-height: 100vh;
+  padding-bottom: 50px;
+  padding-top: 20px;
+  background-color: black;
+  color: #f1f1f1;
+}
+
+.skills .container {
+  position: relative;
+}
+
+.skills #skills-title {
+  position: absolute;
+  right: 0;
+  padding-right: 20px;
+  font-family: "Orbitron", sans-serif;
+}
+
+.skills #skills-title .underline {
+  position: relative;
+  width: 100%;
+  height: 5px;
+  background-color: #fdb827;
+}
+
+.skills .skills-content {
+  margin-top: 150px;
+}
+
+.skills .skills-content .box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 150px;
+  height: 150px;
+  background-color: #fdb827;
+  border-radius: 5px;
+  margin: 10px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.skills .skills-content .box i {
+  font-size: 100px;
+  color: black;
+}
+
+.skills .skills-content .box img {
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+}
+
+.skills #quote {
+  font-family: "Roboto Slab", serif;
+  font-size: 1.5rem;
+  font-weight: 300;
+  margin-top: 80px;
+  text-align: center;
+}
+
+.skills #quote p {
+  font-size: 0.8rem;
+}
+
+.portfolio {
+  background-color: #f1f1f1;
+  width: 100%;
+  height: 100%;
+  min-height: 100vh;
+  padding-bottom: 100px;
+}
+
+.portfolio #portfolio-title {
+  display: inline-block;
+  font-family: "Orbitron", sans-serif;
+  position: relative;
+  text-align: center;
+}
+
+.portfolio #portfolio-title .underline {
+  position: absolute;
+  width: 100%;
+  height: 5px;
+  background-color: #fdb827;
+}
+
+.portfolio .card {
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.portfolio .card .card-body .btn {
+  width: 80px;
+  background-color: #21209c;
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+}
+
+.portfolio .card .card-body .btn i {
+  padding: 5px;
+  color: #f1f1f1;
+}
+
+.portfolio .card .card-body .btn:hover {
+  background-color: black;
+  opacity: 0.9;
+}
+
+.portfolio .card .card-body .card-btn {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+
+.portfolio .card .card-body .label {
+  display: inline-block;
+  padding: 10px 9px 10px;
+  background-color: #fdb827;
+  font-weight: 400;
+  border-radius: 5px;
+}
+
+.portfolio .card:hover {
+  -webkit-box-shadow: 12px 10px 10px 0px rgba(0, 0, 0, 0.5);
+          box-shadow: 12px 10px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 80px;
+  /* Height of the footer */
+  background-color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px auto 20px;
+}
+
+footer .contact {
+  text-align: center;
+}
+
+footer .contact a {
+  margin-left: 20px;
+  margin-right: 20px;
+  text-decoration: none;
+}
+
+footer .contact i {
+  display: inline-block;
+  color: #f1f1f1;
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 10px 0px;
+}
+
+footer .cr {
+  text-align: center;
+  color: #f1f1f1;
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+}
+
+footer .cr p {
+  margin: auto;
+  padding: 10px;
+}
+
+@media (max-width: 767.99px) {
+  .hero {
+    width: 100%;
+    padding-top: 50px;
+  }
+  .hero .container {
+    display: -ms-grid;
+    display: grid;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .hero .container .row {
+    display: -ms-grid;
+    display: grid;
+        grid-template-areas: 'avatar' 'info';
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .hero .container .row .hero-img {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+    grid-area: avatar;
+    max-width: 300px;
+    margin: auto;
+  }
+  .hero .container .row .hero-info {
+    grid: info;
+    text-align: center;
+    margin-top: 30px;
+  }
+  .cr p {
+    padding: 0 !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .hero .container .row {
+    margin-top: 5rem;
+  }
+}
+/*# sourceMappingURL=style.css.map */
