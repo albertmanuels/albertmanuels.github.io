@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded',function(event){
     // array with texts to type in typewriter
-    const personalSkill = [ "I am...", "Professional", "Fast learner", "Team or Individual Working", "Self-Motivated", "Able to learn new thing", "Good communication"];
+    const personalSkill = [ "I am...", "Professional", "Fast learner", "Team work", "Self-Motivated", "Able to learn new thing", "Good communication"];
     
     // type one text in the typwriter
     // keeps calling itself until the text is finished
